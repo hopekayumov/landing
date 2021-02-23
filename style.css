@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+* {
+  box-sizing: border-box;
+}
+:root {
+  --dark-violet: hsl(256, 26%, 20%);  
+  --grayish-blue: hsl(216, 30%, 68%);
+  --very-dark-violet: hsl(270, 9%, 17%);
+  --dark-grayish-violet:  hsl(273, 4%, 51%);
+  --very-light-gray: hsl(0, 0%, 98%);
+}
+
+body {
+  color: var(--dark-violet);
+  font-family: 'Karla', sans-serif;
+  margin: 0;
+}
+h3 {
+  
+  font-family: 'DM Serif Display', sans-serif;
+  font-weight: 500;
+  font-size: 2em;
+}
+h2 {
+  font-size: 4em;
+  font-family: 'DM Serif Display', sans-serif;
+  font-weight: 500;
+  padding-left: 30px;
+}
+.container {
+  padding: 20px 100px;
+  
+  max-width: 100%;
+  width: 1200px;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul {  
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+nav li {
+  margin-left: 30px;
+}
+nav li a {
+  color: var(--dark-grayish-violet);
+  text-transform: uppercase;
+  text-decoration: none;
+  
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+p {
+  width: 100%;
+  opacity: 0.8;
+}
+.main {
+  padding-left: 60px;
+  padding-right: 60px;
+
+}
+.features {
+  width: 30%;
+}
+nav {
+ padding: ;
+}
+hr {
+  width: 100px;
+  margin-left: 40px;
+}
